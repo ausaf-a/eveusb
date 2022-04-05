@@ -1,8 +1,8 @@
-# BadUSB Exploit
+# BadUSB 
 
 ![](./badusb.png)
 
-BadUSB Exploit proof of concept using Digispark Attiny85 board. Useful for executing payloads on unlocked machines.   
+[BadUSB Exploit](https://www.wired.com/2014/07/usb-security/) proof of concept using Digispark Attiny85 board. Useful for executing payloads on unlocked machines.   
 
 ## Motivation
 Human Interface Devices or HIDs (keyboards, mice, and any other input devices) are generally trusted by most personal computer systems. Host operating systems do not ask users for permission before allowing a new keyboard or mouse to send in input after being plugged in. This isn't a flaw however, it's a feature. Imagine if your computer asked you to click "yes" to use the mouse you plugged in. It would work on a laptop, but what if you were on a PC with no built in trackpad? You'd need something to click with already, which can't be assumed. Therefore HIDs must be plug and play by nature with no human interaction, which presents an opportunity to exploit.  
