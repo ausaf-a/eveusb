@@ -9,14 +9,12 @@ Human Interface Devices or HIDs (keyboards, mice, and any other input devices) a
 
 I'm a hacker. If I can control the keyboard and mouse, I can run malware on your computer. But to do that, I'd need to have direct physical access to the computer, putting myself at risk, right?. What if I didn't have to be there, and I could type at the speed of light? Enter BadUSB, a deadly and inherently unpatchable exploit that affects almost every computer with a USB port. 
 
-# Exploit Immplementation 
+# Implementation 
 The goal of this implementation is to achieve arbitrary code execution on the target machine. 
 
 1. Attacker socially engineers victim into plugging in "BadUSB" device, which appears as a normal USB drive.
 2. Device can now send keyboard/mouse commands over HID protocol through a USB Port.
-3. Device quickly runs a powershell command to pull executable from hosting link, and executes.
-4. ???
-5. Profit
+3. Device quickly opens a terminal, executes a command to download and execute file, and stops. 
 
 
 
