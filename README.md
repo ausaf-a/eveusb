@@ -14,7 +14,7 @@ The goal of this implementation is to achieve arbitrary code execution on the ta
 
 1. Attacker socially engineers victim into plugging in "BadUSB" device, which appears as a normal USB drive.
 2. Device can now send keyboard/mouse commands over HID protocol through a USB Port.
-3. Device quickly opens a terminal, executes a command to download and execute file, and stops. 
+3. Device quickly opens a terminal and executes a command to download and execute file. 
 
 
 
