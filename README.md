@@ -14,7 +14,9 @@ The goal of this exploit is to achieve arbitrary code execution on the target ma
 
 1. Attacker socially engineers victim into plugging in "BadUSB" device, which appears as a normal USB drive.
 2. Device can now send keyboard/mouse commands over HID protocol through a USB Port.
-3. Device runs a powershell command to pull executable from hosting link, and executes.
+3. Device quickly runs a powershell command to pull executable from hosting link, and executes.
+4. ???
+5. Profit
 
 
 
