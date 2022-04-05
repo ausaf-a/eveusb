@@ -1,5 +1,7 @@
 # BadUSB Exploit
 
+![](./badusb.png)
+
 BadUSB Exploit PoC using Digispark Attiny85 board. Useful for executing payloads on unlocked machines.   
 
 # Motivation
