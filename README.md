@@ -2,7 +2,7 @@
 
 ![](./badusb.png)
 
-BadUSB Exploit PoC using Digispark Attiny85 board. Useful for executing payloads on unlocked machines.   
+BadUSB Exploit proof of concept using Digispark Attiny85 board. Useful for executing payloads on unlocked machines.   
 
 # Motivation
 Human Interface Devices (HIDs) are generally trusted by most personal computer systems. Host operating systems do not ask users for permission before allowing a new keyboard or mouse to send in input after being plugged in. 
