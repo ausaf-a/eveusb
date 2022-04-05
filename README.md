@@ -5,7 +5,7 @@
 BadUSB Exploit proof of concept using Digispark Attiny85 board. Useful for executing payloads on unlocked machines.   
 
 # Motivation
-Human Interface Devices (HIDs) are generally trusted by most personal computer systems. Host operating systems do not ask users for permission before allowing a new keyboard or mouse to send in input after being plugged in. 
+Human Interface Devices or HIDs (keyboards, mice, and any other input devices) are generally trusted by most personal computer systems. Host operating systems do not ask users for permission before allowing a new keyboard or mouse to send in input after being plugged in. 
 
 I'm a hacker. If I can control the keyboard and mouse, I can run malware on your computer. But to do that, I'd need to have direct physical access to the computer, putting myself at risk, right?. What if I didn't have to be there, and I could type at the speed of light? Enter BadUSB, a deadly and inherently unpatchable exploit that affects almost every computer with a USB port. 
 
