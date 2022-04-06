@@ -1,6 +1,6 @@
 # BadUSB Exploit
 
-![](./badusb.png)
+![](./badusb.gif)
 
 BadUSB Exploit proof of concept using Digispark Attiny85 board. Useful for executing payloads on unlocked machines.   
 
